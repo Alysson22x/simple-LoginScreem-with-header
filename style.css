@@ -1,0 +1,113 @@
+* {
+    font-family: cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(131, 202, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:  rgba(10, 71, 71, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 200%;
+    color: aliceblue;
+    user-select: none;
+}
+
+.navegar a{
+    outline: none;
+    color: aliceblue;
+    font-size: 120%;
+    position: relative;
+    font-weight: 200%;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: 0s;
+}
+
+.navegar a:hover {
+    color: rgb(112, 168, 190);
+    border-bottom: 1px aliceblue solid;
+}
+
+.navegar .bot_login {
+    outline: none;
+    height: 40px;
+    border: 2px aliceblue solid;
+    background-color: transparent;
+    width: 120px;
+    border-radius: 6px;
+    font-size: 120%;
+    font-weight: 200%;
+    margin-left: 40px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.navegar .bot_login:hover {
+    color:  rgb(38, 81, 99);
+    background-color: aliceblue;
+}
+
+
+
+#button_lobby:hover {
+    color: rgb(38, 81, 99);
+}
+
+#button_lobby {
+    font-family: cursive, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 15px;
+    padding: 3px;
+    width: 100%;
+
+}
+
+#title_lobby {
+    font-size: 180%;
+    margin: 15px;
+
+}
+
+#input_lobby {
+    height: 25px;
+    color: aliceblue;
+    border: transparent;
+    border-bottom: aliceblue 2px solid;
+    background: transparent;
+    outline: transparent;
+    
+}
+
+.lobby {
+    border-radius: 10px;
+    background: rgba(10, 71, 71, 0.8);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 50px;
+    top: 10px;
+    color: aliceblue;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
